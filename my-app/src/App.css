@@ -1,0 +1,138 @@
+.AppFlex {
+  display: flex;
+}
+
+.AppListBackground {
+  background-color: rgba(0, 255, 255, 0.536);
+  height: 83.9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.AppHeaderBackground {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  width: 80vw;
+  height: 13vh;
+}
+/*  */
+.MessageBoxLogin {
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 45px;
+  padding: 5px;
+}
+
+.MessageBoxLogin:hover {
+  cursor: pointer;
+  color: brown;
+  background-color: white;
+}
+/*  */
+.ContactBackground {
+  background-color: aqua;
+  height: 100vh;
+  width: 20vw;
+  border-right: 1px solid white;
+}
+
+.ContactPhoto {
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.ContactCursor {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.ContactCursor:hover {
+  cursor: pointer;
+  color: brown;
+  background-color: white;
+}
+
+.ContactFlex {
+  display: flex;
+}
+
+.ContactFlex img {
+  margin: 5px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.ContactFlex input {
+  margin: 5px;
+}
+/*  */
+.HeaderBackground {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  width: 80vw;
+  height: 13vh;
+}
+
+.HeaderPhoto {
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/*  */
+.ListBackground {
+  background-color: rgba(0, 255, 255, 0.536);
+  height: 79vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.ListScroll {
+  max-height: 79vh;
+  overflow-y: auto;
+}
+
+.ListMessage {
+  border: 1px solid white;
+  width: 300px;
+  overflow-wrap: break-word;
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.ListFlex {
+  display: flex;
+}
+
+.ListPhoto {
+  margin-top: 5px;
+  border-radius: 20px;
+  margin-right: 4px;
+}
+/*  */
+.InputBackground {
+  width: 80vw;
+  height: 5vh;
+}
+
+.InputWidth {
+  width: 70vw;
+  height: 3vh;
+}
+
+.InputButton {
+  height: 20px;
+  width: 9vw;
+}
